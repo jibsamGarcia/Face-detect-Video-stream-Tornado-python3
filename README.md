@@ -16,3 +16,4 @@ Descargue archivos de git a cualquier directorio de su PC. Tienes que instalar T
 - Conecte la cámara usb al dispositivo o el puerto 0 de su camara web.
 - Ejecute python3 start.py
 - Abrir en el navegador localhost:9000. Para otros dispositivos, cambie la IP a IP del dispositivo que ejecuta el script start.py 
+![Screenshot](cap.png)
