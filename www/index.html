@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html">
+<head>
+    <meta charset="UTF-8">
+    <title>Streamer</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/main.js" ></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/bootstrap-checkbox.min.js"></script>
+</head>
+<body background="/image/fondo.jpg">
+    <img src="image/logo.png" width="80" height="70">
+    <br>
+    <h1 class="title">Eg.Video streamer</h1>
+    <div class="center">
+        <p>FACE DETECTION</p>
+    </div>
+    <div class="container-fluid">
+        <div class="row" align="center">
+            <img id="videofield" class="video" src="\video_feed?fd=false">
+            <br><br>
+            <div class="btn-group">
+                <a href="#" class="btn btn-primary my" id="low">Resolution low</a>
+                <a href="#" class="btn btn-primary my" id="norm">Resolution medium</a>
+                <a href="#" class="btn btn-primary my" id="hi">Resolution hi</a>
+            </div>
+            <div class="row" align="center">
+                <p>Click yes/no face detect? <input name="agree" type="checkbox"></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
